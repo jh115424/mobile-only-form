@@ -45,7 +45,6 @@ body {
 .searchIcon {
   filter: brightness(0) invert(1);
   margin-bottom: 0.6875rem;
-
   height: 1.7rem;
   width: 1.7rem;
 }
@@ -56,8 +55,8 @@ body {
 }
 
 .formIcons {
-    height: 2.125rem;
-  width: 2.125rem;
+    height: 2.525rem;
+    width: 2.525rem;
   
 }
 
@@ -66,11 +65,13 @@ body {
     padding-top: 50px;
     display: flex;
     align-items: center;
+    gap: 1rem;
 
 }
 
 .name {
- width: 300px;
+ width: 325px;
  height: 70px;
+ font-size: 14pt;
 }
 
