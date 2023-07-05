@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navBar {
+  width: 100%;
+}
+
+.box {
+  width: 25.25rem;
+  height: 7.625rem;
+  background-image: linear-gradient(rgb(44, 44, 168) 30%, rgb(59, 28, 144) 10%);
+  margin-left: 1.56rem;
+  margin-top: 9.375rem;
+  border-radius: 3px;
+}
+
+.shapes {
+  padding-left: 21rem;
+  padding-top: 0.625rem;
+}
+
+.icons {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+
+.navBar-trigram {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.navBar-magnify {
+  margin-left: 12.5rem;
+}
+
+.navIcons{
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.searchIcon {
+  filter: brightness(0) invert(1);
+  margin-bottom: 0.6875rem;
+
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.contact {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.formIcons {
+    height: 2.125rem;
+  width: 2.125rem;
+  
+}
+
+.form {
+    margin-left: 1.56rem;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.name {
+ width: 300px;
+ height: 70px;
+}
+
