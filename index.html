@@ -1,44 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Mobile Form</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-         <div class="navBar">
-            <div class="box">
-                <div class="shapes">
-                    <img src="/icons/square.png" class="icons">
-                    <img src="/icons/circle.png" class="icons">
-                    <img src="/icons/triangle.png" class="icons">
-                  </div>
-                  <div class="navBar-trigram">
-                    <img src="/icons/trigram.png" class="navIcons">
-                    <p class="contact">Contacts</p>
-                    <div class="navBar-magnify">
-                        <img src="/icons/magnify.png" class="searchIcon">
-                        <img src="/icons/threeDots.png" class="navIcons">
-                    </div>
-                </div>               
+
+<head>
+    <meta charset="utf-8">
+    <title>Mobile Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+    <div class="navBar">
+        <div class="box">
+            <div class="shapes">
+                <img src="/icons/square.png" class="icons">
+                <img src="/icons/circle.png" class="icons">
+                <img src="/icons/triangle.png" class="icons">
+            </div>
+            <div class="navBar-trigram">
+                <img src="/icons/trigram.png" class="navIcons">
+                <p class="contact">Contacts</p>
+                <div class="navBar-magnify">
+                    <img src="/icons/magnify.png" class="searchIcon">
+                    <img src="/icons/threeDots.png" class="navIcons">
+                </div>
             </div>
 
-
-
-
-            <div class="form">
-                <img src="/icons/person.png" class="formIcons"  
-                 <label for="name"></label> 
-                <input class="name" id="name" placeholder ="Name" name="name" type="text">
-               
-            </div>
-            
-           
-            
-         </div>
+          
     
 
-    </body>
+        </div>
+        <form action="/action_page.php">
+            <div class="input-container">
+                <img src="/icons/person.png" class="formIcons">
+                <input class="name" placeholder="Name" type="text">
+            </div>
+
+            <div class="input-container">
+                <img src="/icons/phone.png" class="formIcons">
+                <input class="phoneNumber" placeholder="Phone Number" type="text">
+                <input class="label" placeholder="Label">
+            </div>
+            <div class="input-container">
+                <img src="/icons/map point.png" class="formIcons">
+                <input class="address" placeholder="Address" type="text">
+               
+            </div>
+        </form>
+
+       
+
+
+    </div>
+   
+  
+
+
+</body>
+
 </html>
