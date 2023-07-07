@@ -9,7 +9,7 @@ body {
 }
 
 .box {
-  width: 25.90rem;
+  width: 28.90rem;
   height: 7.625rem;
   background-image: linear-gradient(rgb(44, 44, 168) 30%, rgb(59, 28, 144) 10%);
   margin-left: 1.56rem;
@@ -114,5 +114,14 @@ body {
     width: 102px;
     border-radius: 5px;
     height: 70px;
+}
+
+.city {
+    margin-left: 75px;
+    width: 325px;
+    height: 70px;
+    border-radius: 5px;
+    border: black 1px solid;
+    font-size: 14pt;
 }
  
